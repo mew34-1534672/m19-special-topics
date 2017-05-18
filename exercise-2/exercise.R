@@ -21,6 +21,7 @@ basic.fit <- rpart(in_sf ~ ., data = homes, method="class")
 
 # How well did we do?
 AssessFit(basic.fit)
+# 92.88618
 
 # Create empty vectors to store results
 basic.fits <- vector()
